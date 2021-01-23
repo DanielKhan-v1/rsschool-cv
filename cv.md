@@ -26,7 +26,7 @@ I have started my learning experience from C# coding language and .NET platform.
 * perception of OOP in programming..
 
 ## Code Examples:
-'''
+```
 // Function to manipulate with data
 async function getData(src, symbol, first_col, sec_col) {
     var response = await fetch(src);
@@ -39,7 +39,7 @@ async function getData(src, symbol, first_col, sec_col) {
         yLabels.push(parseFloat(columns[sec_col]));
     });
 };
-'''
+```
 
 ## Experience:
 * several projects from front-end courses:
