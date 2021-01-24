@@ -203,6 +203,20 @@ a {
     border-bottom: 1px solid var(--border-color);
 }
 
+.block__contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__list-first {
+    align-self: center;
+}
+
+.photo {
+    height: 400px;
+    border-radius: 5px;
+}
+
 .block__header {
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 5px;
